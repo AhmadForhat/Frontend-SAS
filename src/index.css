@@ -1,0 +1,84 @@
+html {
+    font-family: 'Roboto', 'sans-serif';
+    color:#1E2124;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+body {
+    background-color: #E5E5E5;
+    margin: 0;
+    padding:0
+}
+
+h1, h2, h3, a, p, label {
+    color: #1E2124;
+    margin:0;
+    padding:0
+}
+
+h1 {
+    font-size:44px;
+    font-weight: 500;
+    line-height: 38px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: 'Nunito', 'sans-serif';
+    font-weight: 400;
+    font-size: 24px;
+}
+
+p {
+    font-size:16px
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;  
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+a:active, a:focus {
+    outline: none;
+    -moz-outline-style: none;
+}
+
+button {
+    border:none;
+    border-radius: 8px;
+    width:150px;
+    height:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#0467DB;
+    color:#ffffff;
+    font-weight: 700;
+    margin:0 auto;
+    margin-top: 32px;
+    @media(max-width: 768px) {
+        width:100%
+    }
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+ul, li {
+    padding: 0;
+    list-style: none;
+}
