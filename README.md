@@ -1,6 +1,6 @@
 # Instruções
 
-### Para começar o servidor é necessário digitar o comando abaixo no terminal instalando assim as dependências:
+Para começar o servidor é necessário digitar o comando abaixo no terminal instalando assim as dependências:
 ```
 $ yarn install
 ```
