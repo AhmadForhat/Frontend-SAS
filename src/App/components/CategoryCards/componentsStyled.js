@@ -5,10 +5,10 @@ export const Container = styled.div`
   grid-template-columns: 4fr 4fr 4fr 4fr;
   gap: 2%;
   margin-bottom: 60px;
-  @media(max-width: 576px) {
+  @media(max-width: 662px) {
     grid-template-columns: 3fr 3fr 3fr;
   };
-  @media(max-width: 376px) {
+  @media(max-width: 480px) {
     grid-template-columns: 2fr 2fr;
   }
 `
